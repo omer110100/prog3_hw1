@@ -3,7 +3,7 @@
 #include <cstring>
 
 /*
- * בנאי ברירת מחדל — חובה כדי שנוכל ליצור מערכים של Card
+ * בנאי ברירת מחדל - חובה כדי שנוכל ליצור מערכים של Card
  */
 Card::Card()
 {
@@ -12,7 +12,7 @@ Card::Card()
 }
 
 /*
- * בנאי רגיל — העתקה עמוקה של rank
+ * בנאי רגיל - העתקה עמוקה של rank
  */
 Card::Card(Suit s, const char* r)
 {
@@ -28,7 +28,7 @@ Card::Card(Suit s, const char* r)
 }
 
 /*
- * Copy Constructor — העתקה עמוקה של כל השדות
+ * Copy Constructor - העתקה עמוקה של כל השדות
  */
 Card::Card(const Card& other)
 {
@@ -66,7 +66,7 @@ Card& Card::operator=(const Card& other)
 }
 
 /*
- * Destructor — משחרר את המחרוזת
+ * Destructor - משחרר את המחרוזת
  */
 Card::~Card()
 {

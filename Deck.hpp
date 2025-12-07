@@ -17,7 +17,7 @@ public:
 
     void shuffle();
     Card draw();
-    void addCard(const Card& c);   // ← חשוב! מוסיף קלף ליד
+    void addCard(const Card& c); 
 
     int getCardCount() const { return cardCount; }
 };

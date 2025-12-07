@@ -30,7 +30,7 @@ void Game::playRound()
         std::vector<Card> tableCards;
         tableCards.push_back(c1);
         tableCards.push_back(c2);
-        std::cout << "Tie — starting WAR...\n";
+        std::cout << "Tie - starting WAR...\n";
         resolveWar(tableCards, c1, c2);
         return;
     }

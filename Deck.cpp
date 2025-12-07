@@ -5,7 +5,7 @@
 #include <cstring>
 
 /*
- * בנאי — יוצר חבילת קלפים מלאה (52 קלפים)
+ * בנאי - יוצר חבילת קלפים מלאה (52 קלפים)
  */
 Deck::Deck()
 {
@@ -28,7 +28,7 @@ Deck::Deck()
 }
 
 /*
- * Copy Constructor — העתקה עמוקה מלאה
+ * Copy Constructor - העתקה עמוקה מלאה
  */
 Deck::Deck(const Deck& other)
 {
@@ -41,7 +41,7 @@ Deck::Deck(const Deck& other)
 }
 
 /*
- * Operator= — העתקה עמוקה
+ * Operator= - העתקה עמוקה
  */
 Deck& Deck::operator=(const Deck& other)
 {
@@ -61,7 +61,7 @@ Deck& Deck::operator=(const Deck& other)
 }
 
 /*
- * Destructor — שחרור המערך הדינמי
+ * Destructor - שחרור המערך הדינמי
  */
 Deck::~Deck()
 {
@@ -69,7 +69,7 @@ Deck::~Deck()
 }
 
 /*
- * draw — שליפת קלף מהחלק העליון של החבילה
+ * draw - שליפת קלף מהחלק העליון של החבילה
  */
 Card Deck::draw()
 {
@@ -89,7 +89,7 @@ Card Deck::draw()
 }
 
 /*
- * shuffle — ערבוב בשיטת Fisher–Yates
+ * shuffle - ערבוב בשיטת Fisher–Yates
  */
 void Deck::shuffle()
 {
@@ -105,7 +105,7 @@ void Deck::shuffle()
 }
 
 /*
- * addCard — מוסיף קלף לסוף החבילה
+ * addCard - מוסיף קלף לסוף החבילה
  */
 void Deck::addCard(const Card& c)
 {
